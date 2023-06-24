@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  @apply bg-zinc-700;
+  border-radius: 0px;
+}
+
+*::-webkit-scrollbar-thumb {
+  @apply bg-zinc-500;
+  border-radius: 14px;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  @apply bg-zinc-950;
+}
+
+/* --------> ACIMA ESTÁ A CONFIGURAÇÃO DA SCROLLBAR <--------- */
+
+html {
+  @apply min-h-full;
+  @apply bg-gradient-to-t from-slate-950 to-slate-800;
+}
