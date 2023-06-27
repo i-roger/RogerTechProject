@@ -1,7 +1,6 @@
+import NavbarTeste from '@/components/navbarTest'
 export default function Projetos() {
     return(
-        <div>
-            PAGINA Projetos
-        </div>
+        <NavbarTeste/>
     )
 }

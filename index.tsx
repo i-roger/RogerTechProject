@@ -1,13 +1,9 @@
-import Navbar from '@/components/navbar'
 export default function Home() {
   return (
     <>
     <body>
-    <Navbar />
+      {/* importar navbar padrão aqui! */}
     </body>
-    <main>
-    <div className='flex justify-center'>YEahsuidshaiudhiauhsd</div>
-    </main>
     </>
   )
 }

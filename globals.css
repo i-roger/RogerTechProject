@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 body {
-    @apply bg-gradient-to-t from-slate-900 to-slate-800 h-screen;
-    @apply bg-slate-900;
+  @apply bg-gradient-to-t from-slate-900 to-slate-800 h-screen;
+  @apply bg-slate-900;
 }
